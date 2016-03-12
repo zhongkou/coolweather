@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase.CursorFactory;
 
 public class CoolWeatherOpenHelper extends SQLiteOpenHelper{
 	
-	/*
+	/**
 	 * Province表创建语句
 	 */
 	public static final String CREATE_PROVINCE = "create table Province ("
@@ -15,7 +15,7 @@ public class CoolWeatherOpenHelper extends SQLiteOpenHelper{
 												+ "province_name text, "
 												+ "province_code text)";
 	
-	/*
+	/**
 	 * City表创建语句
 	 */
 	public static final String CREATE_CITY = "create table City ("
@@ -24,7 +24,7 @@ public class CoolWeatherOpenHelper extends SQLiteOpenHelper{
 											+ "city_code text, "
 											+ "province_id integer)"; 
 	
-	/*
+	/**
 	 * County表创建语句
 	 */
 	public static final String CREATE_COUNTY = "create table County ("
